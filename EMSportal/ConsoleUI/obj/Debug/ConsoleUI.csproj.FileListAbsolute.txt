@@ -1,0 +1,10 @@
+/Users/andreeamanole/Downloads/LiskovSubstitutionPrincipleDemo/LSPDemo_End/ConsoleUI/bin/Debug/ConsoleUI.exe.config
+/Users/andreeamanole/Downloads/LiskovSubstitutionPrincipleDemo/LSPDemo_End/ConsoleUI/bin/Debug/ConsoleUI.exe
+/Users/andreeamanole/Downloads/LiskovSubstitutionPrincipleDemo/LSPDemo_End/ConsoleUI/bin/Debug/ConsoleUI.pdb
+/Users/andreeamanole/Downloads/LiskovSubstitutionPrincipleDemo/LSPDemo_End/ConsoleUI/bin/Debug/DemoLibrary.dll
+/Users/andreeamanole/Downloads/LiskovSubstitutionPrincipleDemo/LSPDemo_End/ConsoleUI/bin/Debug/DemoLibrary.pdb
+/Users/andreeamanole/Downloads/LiskovSubstitutionPrincipleDemo/LSPDemo_End/ConsoleUI/obj/Debug/ConsoleUI.csproj.AssemblyReference.cache
+/Users/andreeamanole/Downloads/LiskovSubstitutionPrincipleDemo/LSPDemo_End/ConsoleUI/obj/Debug/ConsoleUI.csproj.CoreCompileInputs.cache
+/Users/andreeamanole/Downloads/LiskovSubstitutionPrincipleDemo/LSPDemo_End/ConsoleUI/obj/Debug/ConsoleUI.csproj.CopyComplete
+/Users/andreeamanole/Downloads/LiskovSubstitutionPrincipleDemo/LSPDemo_End/ConsoleUI/obj/Debug/ConsoleUI.exe
+/Users/andreeamanole/Downloads/LiskovSubstitutionPrincipleDemo/LSPDemo_End/ConsoleUI/obj/Debug/ConsoleUI.pdb
