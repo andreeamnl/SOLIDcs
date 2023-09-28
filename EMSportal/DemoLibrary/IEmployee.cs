@@ -6,6 +6,6 @@
         string LastName { get; set; }
         double Salary { get; set; }
 
-        void CalculatePerHourRate(int rank);
+        void CalculatePerHourRate(int rank, IEmployeeFinances emc);
     }
 }

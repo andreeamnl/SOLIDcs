@@ -48,7 +48,10 @@
     <Compile Include="IManager.cs" />
     <Compile Include="Manager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="EmployeeFinances.cs" />
+    <Compile Include="IEmployeeFinances.cs" />
+    <Compile Include="EmployeeFinancesCEO.cs" />
+    <Compile Include="EmployeeFinancesManager.cs" />
+    <Compile Include="EmployeeFinancesBase.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

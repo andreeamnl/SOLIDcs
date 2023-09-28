@@ -3,15 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static DemoLibrary.EmployeeFinances;
 
 namespace DemoLibrary
 {
     public class CEO : BaseEmployee, IManager
     {
-        public override void CalculatePerHourRate(int rank)
+        public override void CalculatePerHourRate(int rank, IEmployeeFinances EMCEO)
         {
-            EmployeeFinances EMCEO = new EmployeeFinancesCEO();
             Salary = EMCEO.CalculatePay(rank);                //Following SRP means calculatepay method should be handled by a special class
         }
 
