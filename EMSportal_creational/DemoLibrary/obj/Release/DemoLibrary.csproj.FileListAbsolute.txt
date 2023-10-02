@@ -1,0 +1,6 @@
+/Users/andreeamanole/Downloads/LiskovSubstitutionPrincipleDemo/LSPDemo_End/DemoLibrary/bin/Release/DemoLibrary.dll
+/Users/andreeamanole/Downloads/LiskovSubstitutionPrincipleDemo/LSPDemo_End/DemoLibrary/bin/Release/DemoLibrary.pdb
+/Users/andreeamanole/Downloads/LiskovSubstitutionPrincipleDemo/LSPDemo_End/DemoLibrary/obj/Release/DemoLibrary.csproj.AssemblyReference.cache
+/Users/andreeamanole/Downloads/LiskovSubstitutionPrincipleDemo/LSPDemo_End/DemoLibrary/obj/Release/DemoLibrary.csproj.CoreCompileInputs.cache
+/Users/andreeamanole/Downloads/LiskovSubstitutionPrincipleDemo/LSPDemo_End/DemoLibrary/obj/Release/DemoLibrary.dll
+/Users/andreeamanole/Downloads/LiskovSubstitutionPrincipleDemo/LSPDemo_End/DemoLibrary/obj/Release/DemoLibrary.pdb
