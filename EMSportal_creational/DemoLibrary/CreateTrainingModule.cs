@@ -4,31 +4,42 @@ using System.Collections.Generic;
 namespace DemoLibrary
 {
 	public class CreateTrainingModule : ITrainingModuleBuilder
-	{
-        private TrainingModule module = new TrainingModule();
 
-        public void BuildTitle(string title)
+	{ private string Title;
+      private List<string> Topics;
+        private string Duration;
+        private string DifficultyLevel;
+
+
+        public ITrainingModuleBuilder BuildTitle(string title)
         {
-            module.Title = title;
+            this.Title = title;
+            return this;
         }
 
-        public void BuildTopics(List<string> topics)
+        public ITrainingModuleBuilder BuildTopics(List<string> topics)
         {
-            module.Topics = topics;
+            this.Topics = topics;
+            return this;
         }
 
-        public void BuildDuration(string duration)
+        public ITrainingModuleBuilder BuildDuration(string duration)
         {
-            module.Duration = duration;
+            this.Duration = duration;
+            return this;
         }
 
-        public void BuildDifficultyLevel(string difficultyLevel)
+        public ITrainingModuleBuilder BuildDifficultyLevel(string difficultyLevel)
         {
-            module.DifficultyLevel = difficultyLevel;
+            this.DifficultyLevel = difficultyLevel;
+            return this;
         }
 
         public TrainingModule GetResult()
         {
+             TrainingModule module = new TrainingModule(this.Title, this.Topics, this.Duration, this.DifficultyLevel);
+            //Console.WriteLine("here");
+            //Console.WriteLine(module.GetHashCode());
             return module;
         }
     }

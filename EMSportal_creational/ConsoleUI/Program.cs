@@ -36,7 +36,7 @@ namespace ConsoleUI
 
 
             Console.WriteLine($"{emp.FirstName}'s salary is ${emp.Salary}/hour.");
-            Console.WriteLine($"{ accountingVP.FirstName }'s salary is ${accountingVP.Salary }/hour.");
+            Console.WriteLine($"{accountingVP.FirstName}'s salary is ${accountingVP.Salary}/hour.");
 
 
             var emp1 = emp.Clone();  //Implementation of prototype pattern
@@ -63,14 +63,11 @@ namespace ConsoleUI
 
 
             ITrainingModuleBuilder builder = new CreateTrainingModule();   //Builder Pattern
-            // Construct a training module
-            builder.BuildTitle("Module 1");
-            builder.BuildTopics(new List<string> { "Compliance and Internal Audit", "Financial Technology Tools" });
-            builder.BuildDuration("2 hours");
-            builder.BuildDifficultyLevel("Intermediate");
-
             // Get the result
-            TrainingModule module = builder.GetResult();
+            TrainingModule module = builder.BuildTitle("Module 1")
+                .BuildTopics(new List<string> { "Compliance and Internal Audit", "Financial Technology Tools" })
+                .BuildDuration("2 hours")
+                .BuildDifficultyLevel("Intermediate").GetResult(); 
 
             // Display the training module
             module.Display();

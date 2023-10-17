@@ -1,37 +1,46 @@
 ﻿<Properties StartupConfiguration="{97244EB5-2E29-4263-9BE0-00F96446EE5E}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleUI/Program.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DemoLibrary/CreateTrainingModule.cs">
     <Files>
-      <File FileName="ConsoleUI/Program.cs" Line="26" Column="35" />
-      <File FileName="DemoLibrary/Employee.cs" />
-      <File FileName="DemoLibrary/IEmployee.cs" />
-      <File FileName="DemoLibrary/IManaged.cs" />
+      <File FileName="ConsoleUI/Program.cs" Line="63" Column="1" />
+      <File FileName="DemoLibrary/Employee.cs" Line="9" Column="54" />
+      <File FileName="DemoLibrary/IEmployee.cs" Line="12" Column="6" />
+      <File FileName="DemoLibrary/IManaged.cs" Line="14" Column="2" />
       <File FileName="DemoLibrary/IManager.cs" />
       <File FileName="DemoLibrary/BaseEmployee.cs" />
       <File FileName="DemoLibrary/CEO.cs" />
       <File FileName="DemoLibrary/Manager.cs" />
-      <File FileName="DemoLibrary/IEmployeeFinances.cs" />
-      <File FileName="DemoLibrary/EmployeeFinancesCEO.cs" />
+      <File FileName="DemoLibrary/EmployeeFinancesCEO.cs" Line="7" Column="4" />
       <File FileName="DemoLibrary/EmployeeFinancesManager.cs" />
-      <File FileName="DemoLibrary/EmployeeFinancesBase.cs" />
+      <File FileName="DemoLibrary/EmployeeFinancesBase.cs" Line="7" Column="10" />
+      <File FileName="DemoLibrary/IFactoryFinances.cs" Line="10" Column="1" />
+      <File FileName="DemoLibrary/FactoryBaseFinance.cs" Line="5" Column="1" />
+      <File FileName="DemoLibrary/FactoryCEOFinance.cs" Line="8" Column="16" />
+      <File FileName="DemoLibrary/FactoryManagerFinances.cs" Line="7" Column="4" />
+      <File FileName="DemoLibrary/TrainingModule.cs" Line="13" Column="30" />
+      <File FileName="DemoLibrary/ITrainingModuleBuilder.cs" Line="12" Column="36" />
+      <File FileName="DemoLibrary/CreateTrainingModule.cs" Line="7" Column="3" />
+      <File FileName="DemoLibrary/IEmployeePrototype.cs" Line="10" Column="1" />
+      <File FileName="DemoLibrary/Logger.cs" Line="15" Column="10" />
+      <File FileName="DemoLibrary/IEmployeeFinancesProduct.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="LSPDemo" expanded="True">
-            <Node name="ConsoleUI" expanded="True">
-              <Node name="Program.cs" selected="True" />
+          <Node name="LSPDemo">
+            <Node name="ConsoleUI" expanded="True" />
+            <Node name="DemoLibrary" expanded="True">
+              <Node name="CreateTrainingModule.cs" selected="True" />
             </Node>
-            <Node name="DemoLibrary" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

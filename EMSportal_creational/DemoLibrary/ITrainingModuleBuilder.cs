@@ -5,10 +5,10 @@ namespace DemoLibrary
 {
 	public interface ITrainingModuleBuilder
 	{
-        void BuildTitle(string title);
-        void BuildTopics(List<string> topics);
-        void BuildDuration(string duration);
-        void BuildDifficultyLevel(string difficultyLevel);
+        ITrainingModuleBuilder BuildTitle(string title);
+        ITrainingModuleBuilder BuildTopics(List<string> topics);
+        ITrainingModuleBuilder BuildDuration(string duration);
+        ITrainingModuleBuilder BuildDifficultyLevel(string difficultyLevel);
         TrainingModule GetResult();
     }
 }

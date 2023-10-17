@@ -5,10 +5,20 @@ namespace DemoLibrary
 {
 	public class TrainingModule
 	{
-        public string Title { get; set; }
-        public List<string> Topics { get; set; }
-        public string Duration { get; set; }
-        public string DifficultyLevel { get; set; }
+        private string Title { get; set; }
+        private List<string> Topics { get; set; }
+        private string Duration { get; set; }
+        private string DifficultyLevel { get; set; }
+
+        public TrainingModule(String Title, List<string> Topics, string Duration, string DifficultyLevel)
+        {
+            this.Title = Title;
+            this.Topics = Topics;
+            this.Duration = Duration;
+            this.DifficultyLevel = DifficultyLevel;
+
+
+        }
 
         public void Display()
         {
