@@ -9,30 +9,29 @@
 
 ## Objectives:
 
-* Study and understand the Creational Design Patterns.
+* Study and understand the Structural Design Patterns.
 * Choose a domain, define its main classes/models/entities and choose the appropriate instantiation mechanisms.
-* Use some creational design patterns for object instantiation in a sample project.
+* Use some structural design patterns for object instantiation in a sample project.
 
 
 ## Implementation description
 
-* Factory Pattern
+* Facade Pattern
 
-Using the Factory Design Pattern for an EmployeeFinances implementation that includes subclasses like ``BaseEmployeeFinances``, ``EmployeeFinancesCEO``, and ``EmployeeFinancesManager`` involves creating a factory class responsible for creating instances of these subclasses. This pattern provides a way to encapsulate the object creation process and abstract the client code from the specific classes being instantiated.
-
-
-* Builder Pattern 
-
-``TrainingModule`` is the product class that represents a training module.``ITrainingModuleBuilder`` is the builder interface with methods for building different parts of the ``TrainingModule ``. ``CreateTrainingModule`` is a concrete builder class that implements the ``ITrainingModuleBuilder`` interface. It constructs a ``TrainingModule`` step by step.
+Facade is a structural design pattern that provides a simplified interface to a library, a framework, or any other complex set of classes.
 
 
-* Prototype Pattern
+* Decorator Pattern 
 
-The ``Employee`` class is the prototype, and it implements the ``IEmployeePrototype`` interface. The Clone method performs a shallow copy, creating a new Employee instance and copying the values from the original. 
+Decorator is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
 
-* Singleton Pattern
+* Adapter Pattern
 
-The ``Logger`` class has a private constructor, preventing direct instantiation of the class from outside. Instead, clients access the logger instance through the public method ``GetInstance``, which creates the instance on the first call and returns the existing instance on subsequent calls.The ``GetInstance`` method ensures that only one Logger instance exists throughout the application. The Log method is used to log messages to a log file. In this case, we're appending log entries to a file named "log.txt."
+Adapter is a structural design pattern that allows objects with incompatible interfaces to collaborate
+
+* Flyweight Pattern
+
+Flyweight is a structural design pattern that lets you fit more objects into the available amount of RAM by sharing common parts of state between multiple objects instead of keeping all of the data in each object.
 
 
 
