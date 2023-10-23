@@ -1,0 +1,52 @@
+﻿<Properties StartupConfiguration="{97244EB5-2E29-4263-9BE0-00F96446EE5E}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DemoLibrary/CreateTrainingModule.cs">
+    <Files>
+      <File FileName="ConsoleUI/Program.cs" Line="88" Column="33" />
+      <File FileName="DemoLibrary/Employee.cs" Line="9" Column="54" />
+      <File FileName="DemoLibrary/IEmployee.cs" />
+      <File FileName="DemoLibrary/IManaged.cs" />
+      <File FileName="DemoLibrary/IManager.cs" Line="1" Column="1" />
+      <File FileName="DemoLibrary/BaseEmployee.cs" Line="1" Column="1" />
+      <File FileName="DemoLibrary/CEO.cs" />
+      <File FileName="DemoLibrary/Manager.cs" />
+      <File FileName="DemoLibrary/EmployeeFinancesCEO.cs" Line="1" Column="1" />
+      <File FileName="DemoLibrary/EmployeeFinancesManager.cs" Line="1" Column="1" />
+      <File FileName="DemoLibrary/EmployeeFinancesBase.cs" Line="7" Column="10" />
+      <File FileName="DemoLibrary/IFactoryFinances.cs" Line="6" Column="44" />
+      <File FileName="DemoLibrary/FactoryBaseFinance.cs" />
+      <File FileName="DemoLibrary/FactoryCEOFinance.cs" Line="8" Column="16" />
+      <File FileName="DemoLibrary/FactoryManagerFinances.cs" Line="7" Column="4" />
+      <File FileName="DemoLibrary/TrainingModule.cs" Line="30" Column="1" />
+      <File FileName="DemoLibrary/ITrainingModuleBuilder.cs" Line="11" Column="31" />
+      <File FileName="DemoLibrary/CreateTrainingModule.cs" Line="23" Column="25" />
+      <File FileName="DemoLibrary/IEmployeePrototype.cs" />
+      <File FileName="DemoLibrary/Logger.cs" />
+      <File FileName="DemoLibrary/IEmployeeFinancesProduct.cs" Line="1" Column="1" />
+      <File FileName="DemoLibrary/TaskGenerator.cs" Line="8" Column="22" />
+      <File FileName="DemoLibrary/ITaskGenerator.cs" Line="7" Column="6" />
+      <File FileName="DemoLibrary/TaskDecorator.cs" Line="19" Column="1" />
+      <File FileName="DemoLibrary/FeedbackForm.cs" Line="15" Column="1" />
+      <File FileName="DemoLibrary/FeedbackSubmission.cs" Line="14" Column="1" />
+      <File FileName="DemoLibrary/MonthlyFeedbackFacade.cs" Line="20" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LSPDemo" expanded="True">
+            <Node name="ConsoleUI" expanded="True" />
+            <Node name="DemoLibrary" expanded="True">
+              <Node name="CreateTrainingModule.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
