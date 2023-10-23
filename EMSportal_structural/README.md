@@ -38,4 +38,5 @@ Flyweight is a structural design pattern that lets you fit more objects into the
 
 ## Conclusions 
 
-Creational design patterns are important because they provide a structured and flexible way to create objects in software. They encapsulate object creation, promoting code reusability and reducing coupling between classes. Creational patterns improve code maintainability by abstracting complex initialization procedures and enable consistent and reliable object creation. They also facilitate testing and can optimize object creation for better performance.
+Structural design patterns explain how to assemble objects and classes into larger structures, while keeping these structures flexible and efficient.
+
