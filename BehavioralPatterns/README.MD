@@ -6,7 +6,6 @@
 ----
 
 
-
 ## Objectives:
 
 * Study and understand the BehavioralDesign Patterns.
@@ -24,17 +23,13 @@ TaxiMediator (Abstract Base Class): Defines an interface for communicating with 
 
 RideRequestStrategy (Abstract Base Class): Defines an interface for requesting rides. It contains an abstract method execute that is implemented by concrete strategies.UberRideRequestStrategy and LyftRideRequestStrategy (Concrete Strategies): Implement the RideRequestStrategy interface. Each strategy represents a different ride request method (Uber and Lyft). These strategies are used to request rides from specific types of taxis.
 
-* Prototype Pattern
+* Observer Design Pattern
 
-The ``Employee`` class is the prototype, and it implements the ``IEmployeePrototype`` interface. The Clone method performs a shallow copy, creating a new Employee instance and copying the values from the original. 
-
-* Singleton Pattern
-
-The ``Logger`` class has a private constructor, preventing direct instantiation of the class from outside. Instead, clients access the logger instance through the public method ``GetInstance``, which creates the instance on the first call and returns the existing instance on subsequent calls.The ``GetInstance`` method ensures that only one Logger instance exists throughout the application. The Log method is used to log messages to a log file. In this case, we're appending log entries to a file named "log.txt."
+Observer (Abstract Base Class): Defines an interface for observing ride requests. It contains an abstract method notify that should be implemented by concrete observers. PassengerObserver (Concrete Observer): Monitors and responds to ride requests. It implements the Observer interface and prints information about ride requests.
 
 
 
 
 ## Conclusions 
 
-Creational design patterns are important because they provide a structured and flexible way to create objects in software. They encapsulate object creation, promoting code reusability and reducing coupling between classes. Creational patterns improve code maintainability by abstracting complex initialization procedures and enable consistent and reliable object creation. They also facilitate testing and can optimize object creation for better performance.
+In summary, the Mediator pattern is used to centralize and control the communication between various objects, the Strategy pattern encapsulates different ride request strategies, and the Observer pattern is used to monitor and respond to ride requests. These design patterns help in organizing and decoupling the components of the taxi system, making the code more maintainable and extensible.
